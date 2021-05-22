@@ -17,11 +17,10 @@ from visdom import Visdom
 from utils.dataset import BasicDataset
 from torch.utils.data import DataLoader, random_split
 import torchvision.transforms as transforms
-#from Segnet import SegNet
+
 import FCN
-from Focal_Loss import FocalLoss
 from dice_loss import DiceCoeff
-import semseg.modelloader.deeplabv3 as deeplabv3
+
 
 
 dir_img ='/home/syx/US_kidney/SZRH/50/slice_arg'#_arg'#'D:\\US_kidney\png_mini_mini\\train\slice_arg'#'/home/syx/US_kidney/SZRH/train&val/slice_arg'## '/home/syx/kits19-master/png_datasize/style_transfer/GAN_test15/slice/images' #
