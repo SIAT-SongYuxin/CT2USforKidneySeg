@@ -8,3 +8,6 @@ Abstract.Accurate segmentation of kidney in ultrasound images is a vital procedu
 
 # Dataset
 The transistion dataset is available.https://www.kaggle.com/siatsyx/ct2usforkidneyseg
+
+# References
+Pytorch UNet[https://github.com/milesial/Pytorch-UNet]
